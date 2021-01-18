@@ -16,3 +16,25 @@ body{
     justify-content: center;
     height: 100vh;
 }
+
+.button{
+    padding: 20px 50px;
+    margin: 20px;
+    color: white;
+    font-family: inherit;
+    font-weight: bolder;
+    background: black;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button:focus{
+    outline: none;
+}
+button:hover{
+    background: rgba(0, 0, 139, 0.5);
+}
+.button:active{
+    transform: scale(.98);
+}
